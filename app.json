@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "reminder-app",
+    "slug": "reminder-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "Ta aplikacja wymaga dostępu do twojego kalendarza."
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "permissions": ["READ_CALENDAR", "WRITE_CALENDAR"]
+      }
+    
+      }
+    
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
